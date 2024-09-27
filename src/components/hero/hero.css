@@ -1,0 +1,64 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 269px;
+    background-color: #626262;
+}
+.small_box{
+    height: 181px;
+    background-color: #9B9B9B;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 355.41px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.small_box h3{
+    background: none;
+}
+.heading{
+    background: transparent;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34.47px;
+}
+.amount_expense{
+    background: none;
+    color: orange;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34.47px;
+    }
+    .amount_add{
+    background: none;
+    color: greenyellow;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34.47px;
+}
+.butt_inc{
+width:167.65px;
+height:38px;
+border-radius:15px;
+background-color:greenyellow;
+border: none;
+}
+.butt_exp{
+    width:167.65px;
+    height:38px;
+    border-radius:15px;
+    background-color:red;
+    cursor:pointer;
+    border: none;
+}
+.success{
+    color:#9DFF5B;
+}
+.failure{
+    color:#F4BB4A;
+}
